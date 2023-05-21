@@ -62,3 +62,15 @@ plt.ylabel("number")
 plt.title("The new cases and new deaths across the world over time")
 plt.show()
 '''!!!still need to be checked!!!'''
+
+# Plot both new cases and total cases over time in China (Answer the question stated in file question.txt)
+China_dates = covid_data.loc[:,"date"]  
+China_new_cases = covid_data.loc[:,"new_cases"]
+China_new_deaths = covid_data.loc[:,"new_deaths"]
+plt.plot(China_dates, China_new_cases, 'ro',markersize = '5')#red circle
+plt.plot(China_dates, China_new_deaths, 'bo',markersize = '5')#blue circle
+plt.xticks(China_dates.iloc[0:len(China_dates):4],rotation=-90)
+plt.xlabel("date")
+plt.ylabel("number")
+plt.title("The new cases and new deaths in China over time")
+plt.show()
