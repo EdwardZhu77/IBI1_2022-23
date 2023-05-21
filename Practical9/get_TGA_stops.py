@@ -2,7 +2,7 @@
 import re
 
 # Open input file containing DNA sequences
-data = open("E:\study files (python)\IBI\IBI Practical\Saccharomyces_cerevisiae.R64-1-1.cdna.all.fa")
+data = open("E:\study files (python)\IBI\IBI Practical\Saccharomyces_cerevisiae.R64-1-1.cdna.all.fa") #may be different
 # Create output file for TGA stops genes
 output = open("E:\study files (python)\IBI\IBI Practical\TGA_genes.fa", "w")  #"w" for writing mode
 
