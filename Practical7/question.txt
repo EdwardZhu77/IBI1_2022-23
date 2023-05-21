@@ -1,0 +1,7 @@
+How have new cases and total cases developed over time in China?
+
+Location of the code:
+Lines 
+
+Discussion:
+As the first country that identified the novel coronavirus (possibly the origin), China always had more than 0 total cases since January 1. Since January 16 (before the massive testing began), the number of new cases soared. Within a month, the total number of cases reached 10,000.
