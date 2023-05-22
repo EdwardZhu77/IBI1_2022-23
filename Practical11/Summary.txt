@@ -1,0 +1,33 @@
+The result of the Alignment.py :
+
+Seq: 
+> ACE2_CAT (Q56H28) 
+> ACE2_HUMAN (Q9BYF1)
+Alignment Matrix: BLOSUM62
+Alignment Score: 3717
+Identical Percentage: 85.21739130434783
+
+Seq: 
+> ACE2_HUMAN (Q9BYF1)
+>ACE2_MOUSE (Q8R0I0) 
+Alignment Matrix: BLOSUM62
+Alignment Score: 3579
+Identical Percentage: 82.11180124223603
+
+Seq:
+> ACE2_CAT (Q56H28)
+>ACE2_MOUSE (Q8R0I0)
+Alignment Matrix: BLOSUM62
+Alignment Score: 3592
+Identical Percentage: 81.73913043478261
+
+What we find:
+
+When comparing the alignment scores and proportion of matching amino acids, the human ACE2 protein sequence had the strongest similarity with the cat ACE2 sequence. 
+Out of all the comparisons, the human and feline ACE2 sequences had the maximum level of sequence identity at 85.217% and the highest alignment score of 3717.
+Evolutionarily, humans and cats likely shared a more recent common ancestor than humans and mice. 
+The higher conservation of ACE2 sequences in humans and cats suggests stronger pressure to maintain similar ACE2 functions. 
+In contrast, humans and mice diverged earlier, allowing more changes in their ACE2 genes over time.
+In summary, ACE2 sequence comparisons suggest humans and cats are more closely related than humans and mice. 
+Greater sequence similarity between human and cat ACE2 indicates a more recent common ancestor and potentially greater functional constraints on ACE2 in these animals. 
+These results provide insights into evolutionary relationships and the importance of preserving certain ACE2 functions across these mammals. 
