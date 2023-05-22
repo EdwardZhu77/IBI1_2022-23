@@ -1,17 +1,9 @@
-# we need several "n" to get several "h"
-# so I go through to whole progress for five times
-n=1
-h = 2*n*(2*n-1)/2
-print(h) # "h"corresponding with "n=1"
-n=2
-h = 2*n*(2*n-1)/2
-print(h) # "h"corresponding with "n=2"
-n=3
-h = 2*n*(2*n-1)/2
-print(h) # "h"corresponding with "n=3"
-n=4
-h = 2*n*(2*n-1)/2
-print(h) # "h"corresponding with "n=4"
-n=5
-h = 2*n*(2*n-1)/2
-print(h) # "h"corresponding with "n=5"
+# Loop through the integers from 1 to 5
+# For each integer i, calculate its hexagonal number using the formula h = i(2i-1)
+# Print the hexagonal number finally
+
+# Loop through the first five integers and calculate their hexagonal number
+for i in range (1,6):
+	h = i*(2*i-1)
+# Got the answer
+	print (h)
