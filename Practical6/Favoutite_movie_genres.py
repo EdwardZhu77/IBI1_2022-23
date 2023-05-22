@@ -14,10 +14,15 @@ myDict = {
     'War': '7'} # Create a dictionary
 print('Comedy:', myDict['Comedy']) # the number of people who like comedy
 import matplotlib.pyplot as plt # use pyplot
-myDict = {'Comedy': 73, 'Action': 42, 'Romance': 38, 'Fantasy': 28, 'Science-fiction': 22, 'Horror': 19, 'Crime': 18, 'Documentary': 12, 'History': 8, 'War': 7}
 labels = list(myDict.keys())
 values = list(myDict.values()) # use the data from the dictionary
-fig, ax = plt.subplots() # create figure
-ax.pie(values, labels=labels, autopct='%1.1f%%') # pie chart create
-ax.set_title('Favourite movie genres among Chinese university students') # create title
-plt.show() # show the chart
+# Create the pie chart and display it
+plt.pie(values, labels=labels, autopct='%1.1f%%', shadow=False, startangle=90)
+plt.axis('equal')
+plt.show()
+
+
+# Ask the user for a movie genre
+msg = input("Movie genre: ")
+# print the number of students for which this genre is their favourite from the dictionary
+dictionary[msg]
