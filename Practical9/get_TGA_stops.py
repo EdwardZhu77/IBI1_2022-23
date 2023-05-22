@@ -4,7 +4,7 @@ import re
 # Open input file containing DNA sequences
 data = open("Saccharomyces_cerevisiae.R64-1-1.cdna.all.fa") #may be different # It is ":\study files (python)\IBI\IBI Practical\Saccharomyces_cerevisiae.R64-1-1.cdna.all.fa" in my computer
 # Create output file for TGA stops genes
-output = open("E:\study files (python)\IBI\IBI Practical\TGA_genes.fa", "w")  #"w" for writing mode # It is "E:\study files (python)\IBI\IBI Practical\TGA_genes.fa" in my computer
+output = open("TGA_genes.fa", "w")  #"w" for writing mode # It is "E:\study files (python)\IBI\IBI Practical\TGA_genes.fa" in my computer
 
 # Initialize an empty string to store the needed DNA sequence
 sequence = ""
