@@ -1,4 +1,3 @@
-# Two goals
 # Create a dictionary
 # Drae a pie chart
 myDict = {
