@@ -1,7 +1,7 @@
 # Import modules
 import xml.dom.minidom as dom  
 import openpyxl  
-import os
+'''import os
 os.chdir("E:\study files (python)\IBI\IBI Practical")# To work on my laptop'''
 
 # Define a new function to work on it
